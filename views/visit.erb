@@ -7,7 +7,7 @@
 	<h2>Записаться</h2>
 	<p>На этой странице Вы можете записаться в Barber Shop</p>
 
-	<form role="form">
+	<form role="form" method="POST">
 
 	  <div class="form-group">
 	    <label>Введите Ваше имя</label>
@@ -26,7 +26,7 @@
       
 	  <div class="form-group">
 	    <label>Ваш парикмахер</label>
-	    <select class="form-control">
+	    <select name="barber" class="form-control">
 	      	<option>1. Jessie Pinkman</option>
 	  		<option>2. Wolter White</option>
 	  		<option>3. Gas Fring</option>
@@ -35,8 +35,6 @@
 	  	</select>
 	  </div>
 
-      
-	  
 	  <button type="submit" class="btn btn-primary"> Записаться </button>
 
 	</form>
